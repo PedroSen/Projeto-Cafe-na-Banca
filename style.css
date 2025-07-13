@@ -1,0 +1,462 @@
+/*Universal*/   
+
+/*Talvez a melhor forma de fazer uma imagem responsiva seja usando vh, aspect-ratio (para manter a proporção entre altura e largura) e definindo uma altura mínima para que a imagem não fique minúscula em telas menores.*/
+
+*{
+    box-sizing: border-box;
+    /*border: 1px solid gray;*/
+}
+
+body{
+    overflow-x: hidden;
+}
+
+p{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+header{
+    box-shadow: 0px 5px 5px 5px black;
+    position: relative;
+    z-index: 2;
+    background-color: rgb(66, 34, 3);
+    display: flex;
+    justify-content: center;
+    padding: 0.2% 0% 0.5% 0%;
+}
+
+nav figure{
+    margin: 0
+}
+
+nav img{
+    height: 10vh;
+    width: auto;
+    min-height: 70px;
+}
+
+nav ul{
+    font-family:'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 1.2rem;
+    margin-left: 2%;
+}
+
+.navbar-toggler{
+    background-color: rgb(204, 202, 188);
+    margin-right: 40px;
+}
+
+section{
+    border-bottom: 5px solid gold;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.reverse-colors{
+    background-image: url(background.png);
+    background-color: rgba(66, 34, 3, 0.7);
+    background-blend-mode: lighten;
+    background-size: contain;
+    color: white;
+}
+
+footer{
+    background-color: rgb(24, 24, 24);
+    min-height: 30vh;
+    padding: 0% 15% 30px 15%;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+footer p{
+    text-align: left;
+}
+
+.footer-title{
+    color: rgb(209, 207, 207);
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 7% 0% 5% 0%;
+}
+
+.footer-subtitle{
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: underline;
+    margin: 0px;
+}
+
+.footer-text{
+    font-size: 1rem;
+    color: white;
+}
+
+footer li{
+    text-align: left;
+    padding-bottom: 2%;
+    list-style-type: none;
+}
+
+footer ul{
+    padding-left: 0;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+#facebook{
+    min-width: 200px;
+}
+
+.fb-page{
+    width: 100%;
+    min-width: 200px;
+    padding-bottom: 30px;
+    overflow-x: hidden;
+}
+
+#bt-whatsApp{
+    right:25px;
+    position:fixed;
+    width:60px;
+    height:80px;
+    bottom:40px;
+    z-index:100;
+    overflow-x: visible;
+}
+
+#whatsapp-message{
+  right: 90px;
+  visibility: visible;
+  background: #1EBC59;
+  color: #fff;
+  position: fixed;
+  width: 200px;
+  bottom: 52px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 31px;
+  height: 65px;
+  border-radius: 100px;
+  z-index: 100;
+}
+
+
+/*Homepage*/
+.carousel-inner{
+    box-shadow: 0px 5px 5px 5px black;
+    position: relative;
+    z-index: 1;
+}
+
+#homepage #section-2 img{
+    min-width: 250px !important;
+    max-width: 300px !important;
+    height: auto;
+}
+
+#homepage #section-3 img{
+    min-width: 200px !important;
+    max-width: 230px !important;
+    height: auto;
+}
+
+#homepage #section-4 img{
+    min-width: 250px !important;
+    max-width: 300px !important;
+    height: auto;
+}
+
+section a{
+    width: 20%;
+    text-decoration: none;
+}
+
+#homepage .btn{
+     width: 110px;
+     margin-left: 0;
+     margin-bottom: 40px;
+}
+
+#homepage section{
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 5%;
+}
+
+#homepage #section-1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+#homepage #section-1 h1{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#homepage #section-1 h2{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+#homepage #section-5{
+    min-height: 30vh;
+    text-align: center;
+    padding-top: 1%;
+    align-items: center;
+    justify-content: center;
+}
+
+#homepage #section-5 .card{
+    background-color: rgb(190, 190, 190);
+    margin-bottom: 3%;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+#homepage #section-5 .row{
+    justify-content: center;
+    margin-top: 2%;
+    gap: 3%;
+}
+
+#homepage #section-5 h1, 
+#homepage #section-5 p{
+    text-align: center;
+}
+
+
+/*Quem Somos*/
+#quem-somos main{
+    border-bottom: 5px solid gold;
+}
+
+#quem-somos section{
+    margin: 30px 10% 30px 10%;
+    border: 0;
+}
+
+#quem-somos main .row{
+    text-align: justify;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5%;
+}
+
+.quem-somos-logo-fig{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.quem-somos-logo-img{
+    width: 20%;
+    min-width: 200px;
+    max-width: 250px;
+    margin-bottom: 1%;
+}
+
+#quem-somos h1{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#quem-somos h4{
+    text-align: center;
+    margin-bottom: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.quem-somos-fig-1{
+    display: flex;
+    justify-content: center;
+    width: 12%;
+    min-width: 170px;
+    max-width: 190px;
+    height: auto;
+}
+
+.quem-somos-img-1{
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*Nossas Máquinas*/
+#maquinas section{
+    padding: 40px 10% 50px 10%;
+}
+
+#maquinas h4{
+    text-align: center;
+    margin-bottom: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+#maquinas #section-1{
+    text-align:center;
+    justify-content: center;
+    gap: 4%;
+    padding: 40px 3% 50px 3%;
+}
+
+#maquinas #section-1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#maquinas #section-1 figcaption{
+    font-style: italic; 
+    margin-top: 5%;
+}
+
+#maquinas #section-1 figure{
+    display: inline-block;
+    height: 100%;
+    width: auto;
+}
+
+#maquinas main img{
+    height: 40vh;
+}
+
+#maquinas #section-1 img{
+    height: 20vh;
+    border: 2px solid black;
+    padding: 2%;
+    border-radius: 10%;
+}
+
+
+/*Café e Insumos*/
+#cafe main .row{
+    padding: 40px 10% 30px 10%;
+}
+
+#cafe h4{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+#cafe .section-1{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#cafe .section-1 h1{
+    text-align: center;
+}
+
+#cafe .section-1 p{
+    text-align:center;
+    padding-bottom: 2%;
+}
+
+#cafe main .section-2 img{
+    height: 40vh;
+}
+
+#cafe main .section-3 img{
+    height: 40vh;
+    border: 4px solid black;  
+}
+
+
+/*Manutenção*/
+#manutencao main{
+    margin: 30px 10% 30px 10%;
+}
+
+#manutencao main .row{
+    text-align: justify;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10%;
+}
+
+#manutencao h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#manutencao h4{
+    text-align: center;
+    margin-bottom: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+#manutencao-fig-1{
+    display: flex;
+    justify-content: center;
+}
+
+#manutencao-img-1{
+    height: 33vh;
+    min-height: 250px;
+    border: 4px solid black;
+}
+
+/*Fale Conosco*/
+#fale-conosco main{
+    color: black;
+    margin: 40px 0 40px 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact-row{
+    justify-content: center;
+    gap: 3%;
+}
+
+.contact-row p{
+    text-align: center;
+}
+
+form{
+    border: 1px solid rgb(146, 145, 145);
+    padding: 2%;
+    padding-top: 0;
+}
+
+#fale-conosco h3{
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+fieldset{
+    padding-top: 2%;
+    text-align: left;
+}
+
+label{
+    margin-top: 2%;
+}
+
+#fale-conosco .btn{
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+#fale-conosco .card{
+    background-color: rgb(233, 233, 233);
+    margin-bottom: 20px;
+}
