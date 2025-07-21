@@ -10,167 +10,159 @@
 </head>
 
 <body id="homepage">
-  <div id="container-fluid">
-    <header>
-      <nav class="navbar navbar-expand-xl row">
-        <figure class="col-11 col-xl-2 d-flex justify-content-center align-items-center position-relative">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a href="index.html" class="mx-auto"><img id="logo" src="img/logo.png" alt="café na banca"></a>
-        </figure>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline">
-            <li class="nav-item"><a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="quem_somos.html">Quem Somos</a></li>
-            <li class="nav-item"><a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="maquinas.html">Nossas Máquinas</a></li>
-            <li class="nav-item"><a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="cafe.html">Café e Insumos</a></li>
-            <li class="nav-item"><a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="manutencao.html">Manutenção Gratuita</a></li>
-            <li class="nav-item"><a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="fale_conosco.html">Fale Conosco</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-
-    <main>
-      <div id="carouselExampleIndicators" class="carousel slide col carousel-height" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" ></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active carousel-height" data-bs-interval="5000">
-            <img src="img/carrossel_1.png" class="d-block w-100 carousel-img carousel-height" alt="Foto de uma xícara de café com a frase 'há vinte anos trazendo o sabor do café ao Rio de Janeiro'">
-          </div>
-          <div class="carousel-item carousel-height"   data-bs-interval="4000">
-            <img src="img/carrossel_2.png" class="d-block w-100 carousel-img" alt="Foto de uma máquina de café com a frase 'fornecemos máquinas italianas automáticas para o seu estabelecimento'">
-          </div>
-          <div class="carousel-item carousel-height" data-bs-interval="4000">
-            <img src="img/carrossel_3.png" class="d-block w-100 carousel-img" alt="Foto de aroma de café com a frase 'café gourmet em grãos tipo exportação'">
-          </div>
-          <div class="carousel-item carousel-height"  data-bs-interval="4000">
-            <img src="img/carrossel_4.png" class="d-block w-100 carousel-img" alt="Foto de um homem consertando uma máquina de café com a frase 'oferecemos serviço de manutenção gratuita para nossos clientes'">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+  <header>
+    <nav class="navbar navbar-expand-xl row">
+      <figure class="col-11 col-xl-2 d-flex justify-content-center align-items-center position-relative">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-      <!--"col-12 col-md-7 col-lg-5" significa que, nos tamanhos de tela menores que "medium", a coluna ocupa 12 dos 12 (ou 11?) espaços. Quando-->
-      <!--o tamanho da tela é "medium", a coluna ocupa apenas 7 dos 12 espaços. E a partir do tamanho de tela "large", a coluna ocupa 5 dos 12 espaços.-->
-
-      <section id="section-1" class="row reverse-colors">
-        <h1>O LEGÍTIMO CAFÉ EXPRESSO</h1>
-        <h2>A Café na Banca trabalha para fornecer ao seu negócio tudo o que for necessário para trazer o sabor do café a seus clientes</h2>
-      </section>
-
-      <section id="section-2" class="row">
-        <div class="col-12 col-md-7 col-lg-6">
-          <h3>Nossas máquinas</h3>
-          <p>Fornecemos ao seu negócio máquinas de café expresso italianas da mais alta qualidade.</p>
-          <a class="row btn btn-warning btn-home" role="button" href="maquinas.html">Saiba mais</a>
-        </div>
-        <figure class="col-12 col-md-4 col-lg-3 d-flex justify-content-center ima">
-          <img src="img/saeco_royal.png" class="img-fluid" alt="Foto de uma máquina de café Saeco Royal">
-        </figure>
-      </section>
-
-      <section id="section-3" class="row reverse-colors">
-        <div class="col-12 col-md-7 col-lg-6">
-          <h3>Nosso café</h3>
-          <p> Fornecemos a nossos clientes doses do Café Gourmet Vargas, composto de grãos predominantemente arábica, maduros, secos com todo cuidado, mantendo o melhor de cada grão. Os grãos são separados por tamanho e densidade, buscando os maiores e mais perfeitos. Por maior segurança, a Fazenda Ribeira em Varre Sai – RJ, origem dos grãos, produz e torra o café de forma sustentável, respeitando normas socioambientais, sendo referência e reconhecida por esse padrão de qualidade e sustentabilidade.</p>
-          <a class="row btn btn-warning btn-home" role="button" href="cafe.html">Saiba mais</a>
-        </div>
-        <figure class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
-          <img class="section-image-3" src="img/café_vargas.png" alt="Foto de um pacote de café Vargas Gourmet">
-        </figure>
-      </section>
-
-      <section id="section-4" class="row">
-        <div class="col-12 col-md-7 col-lg-6">
-          <h3>Oferecemos manutenção gratuita a nossos clientes</h3>
-          <p> Em nosso compromisso com a excelência, garantimos que todas as nossas máquinas sejam cuidadosamente reparadas e reguladas por técnicos altamente especializados. Por isso oferecemos assistência técnica totalmente gratuita para nossos clientes. Nossa equipe está à disposição para garantir que sua máquina seja atendida com rapidez e eficiência, sem custos adicionais.</p>
-          <a class="row btn btn-warning btn-home" role="button" href="manutencao.html">Saiba mais</a>
-        </div>
-        <figure class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
-          <img class="section-image-1" src="img/section_4_image.png" alt="Foto de um homem consertando uma máquina de café">
-        </figure>
-      </section>
-
-      <section id="section-5" class="row reverse-colors">
-          <h3>Entre em contato conosco!</h3>
-          <p>Quer contratar nossos serviços? Entre em contato ainda hoje por e-mail, telefone ou whatsapp!</p>
-          <div class="row">
-            <div class="card border-secondary col-7 col-lg-4">
-              <a href="mailto:fisiofrp@yahoo.com.br" target="_blank">
-                <div class="card-body">
-                  <h4 class="card-title">E-mail</h4>
-                  <p>fisiofrp@yahoo.com.br</p>
-                </div>
-              </a>
-            </div>
-            <div class="card border-secondary col-7 col-lg-4">
-              <a href="https://wa.me/5521993046255?text=&#8202" target="_blank">
-                <div class="card-body">
-                  <h4 class="card-title">Telefone (wpp)</h4>
-                  <p>(21) 99304-6255</p>
-                </div>
-              </a>
-            </div>
-          </div>
-      </section>
-    </main>
-
-    <footer class="row">
-      <address class="col-12 col-sm-6 col-md-4">
-        <p class="footer-title">CONTATO</p>    
-        <a href="https://wa.me/5521993046255?text=&#8202" target="_blank"><p class="footer-subtitle">Telefone (wpp)</p>
-        <p class="footer-text">(21) 99304-6255</p></a>
-        <a href="mailto:fisiofrp@yahoo.com.br" target="_blank"><p class="footer-subtitle">E-mail</p> 
-        <p class="footer-text">fisiofrp@yahoo.com.br</p></a>
-      </address>
-      <nav class="col-12 col-sm-4 col-md-4">
-        <p class="footer-title">MENU</p>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="quem_somos.html">Quem Somos</a></li>
-          <li><a href="maquinas.html">Nossas Máquinas</a></li>
-          <li><a href="cafe.html">Café e Insumos</a></li>
-          <li><a href="manutencao.html">Manutenção Gratuita</a></li>
-          <li><a href="fale_conosco.html">Fale Conosco</a></li>
+        <a href="index.html" class="mx-auto"><img src="img/logo.png" alt="café na banca"></a>
+      </figure>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline">
+          <li class="nav-item"><a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="quem_somos.html">Quem Somos</a></li>
+          <li class="nav-item"><a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="maquinas.html">Nossas Máquinas</a></li>
+          <li class="nav-item"><a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="cafe.html">Café e Insumos</a></li>
+          <li class="nav-item"><a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="manutencao.html">Manutenção Gratuita</a></li>
+          <li class="nav-item"><a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="fale_conosco.html">Fale Conosco</a></li>
         </ul>
-      </nav>
-      <div class="col-12 col-sm-5 col-md-4">
-        <p class="footer-title">FACEBOOK</p>
-
-
       </div>
-    </footer>
+    </nav>
+  </header>
 
-    <!--Início Widget Whatsapp-->
-    <div class="widget-whatsapp">
-      <a href="https://api.whatsapp.com/send?phone=5521993046255&text=" id="bt-whatsApp" target="_blank">
-        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMjYxOSA1MDYgMTIwIDEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogIzI3ZDA0NTsKICAgICAgfQoKICAgICAgLmNscy0yLCAuY2xzLTUgewogICAgICAgIGZpbGw6IG5vbmU7CiAgICAgIH0KCiAgICAgIC5jbHMtMiB7CiAgICAgICAgc3Ryb2tlOiAjZmZmOwogICAgICAgIHN0cm9rZS13aWR0aDogNXB4OwogICAgICB9CgogICAgICAuY2xzLTMgewogICAgICAgIGZpbGw6ICNmZmY7CiAgICAgIH0KCiAgICAgIC5jbHMtNCB7CiAgICAgICAgc3Ryb2tlOiBub25lOwogICAgICB9CiAgICA8L3N0eWxlPjwvZGVmcz48ZyBkYXRhLW5hbWU9Ikdyb3VwIDM2IiBpZD0iR3JvdXBfMzYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIzMDAgNzMpIj48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjYwIiBjeT0iNjAiIGRhdGEtbmFtZT0iRWxsaXBzZSAxOCIgaWQ9IkVsbGlwc2VfMTgiIHI9IjYwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMTkgNDMzKSIvPjxnIGRhdGEtbmFtZT0iR3JvdXAgMzUiIGlkPSJHcm91cF8zNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjU0IDM4NikiPjxnIGRhdGEtbmFtZT0iR3JvdXAgMzQiIGlkPSJHcm91cF8zNCI+PGcgY2xhc3M9ImNscy0yIiBkYXRhLW5hbWU9IkVsbGlwc2UgMTkiIGlkPSJFbGxpcHNlXzE5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5NCA3NSkiPjxjaXJjbGUgY2xhc3M9ImNscy00IiBjeD0iMzEuNSIgY3k9IjMxLjUiIHI9IjMxLjUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNSIgY3g9IjMxLjUiIGN5PSIzMS41IiByPSIyOSIvPjwvZz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0xNDI0LDE5MWwtNC42LDE2LjMsMTYuOS00LjcuOS01LjItMTEsMy41LDIuOS0xMC41WiIgZGF0YS1uYW1lPSJQYXRoIDEyNiIgaWQ9IlBhdGhfMTI2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTMyNSAtNjgpIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTI2Niw5MGMwLS4xLDMuNS0xMS43LDMuNS0xMS43bDguNCw3LjlaIiBkYXRhLW5hbWU9IlBhdGggMTI3IiBpZD0iUGF0aF8xMjciIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMTY1IDQzKSIvPjwvZz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0xNDM5LjMsMTYwLjZhOS40LDkuNCwwLDAsMC0zLjksNi4xYy0uNSwzLjksMS45LDcuOSwxLjksNy45YTUwLjg3Niw1MC44NzYsMCwwLDAsOC42LDkuOCwzMC4xODEsMzAuMTgxLDAsMCwwLDkuNiw1LjEsMTEuMzc4LDExLjM3OCwwLDAsMCw2LjQuNiw5LjE2Nyw5LjE2NywwLDAsMCw0LjgtMy4yLDkuODUxLDkuODUxLDAsMCwwLC42LTIuMiw1Ljg2OCw1Ljg2OCwwLDAsMCwwLTJjLS4xLS43LTcuMy00LTgtMy44cy0xLjMsMS41LTIuMSwyLjYtMS4xLDEuNi0xLjksMS42LTQuMy0xLjQtNy42LTQuNGExNS44NzUsMTUuODc1LDAsMCwxLTQuMy02cy42LS43LDEuNC0xLjhhNS42NjQsNS42NjQsMCwwLDAsMS4zLTIuNGMwLS41LTIuOC03LjYtMy41LTcuOUExMS44NTIsMTEuODUyLDAsMCwwLDE0MzkuMywxNjAuNloiIGRhdGEtbmFtZT0iUGF0aCAxMjgiIGlkPSJQYXRoXzEyOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEzMjYuMzMyIC02OC40NjcpIi8+PC9nPjwvZz48L3N2Zz4=" alt="Link Whatsapp">
-        <div id="whatsapp-message">
-          Fale conosco via WhatsApp
+  <main>
+    <div id="carouselExampleIndicators" class="carousel slide col carousel-height" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" ></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active carousel-height" data-bs-interval="5000">
+          <img src="img/carrossel_1.png" class="d-block w-100 carousel-img carousel-height" alt="Foto de uma xícara de café com a frase 'há vinte anos trazendo o sabor do café ao Rio de Janeiro'">
         </div>
-      </a>
+        <div class="carousel-item carousel-height"   data-bs-interval="4000">
+          <img src="img/carrossel_2.png" class="d-block w-100 carousel-img" alt="Foto de uma máquina de café com a frase 'fornecemos máquinas italianas automáticas para o seu estabelecimento'">
+        </div>
+        <div class="carousel-item carousel-height" data-bs-interval="4000">
+          <img src="img/carrossel_3.png" class="d-block w-100 carousel-img" alt="Foto de aroma de café com a frase 'café gourmet em grãos tipo exportação'">
+        </div>
+        <div class="carousel-item carousel-height"  data-bs-interval="4000">
+          <img src="img/carrossel_4.png" class="d-block w-100 carousel-img" alt="Foto de um homem consertando uma máquina de café com a frase 'oferecemos serviço de manutenção gratuita para nossos clientes'">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <!--Fim Widget Whatsapp-->
-    <!--Início Widget Facebook-->
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v23.0"></script>
-    <!--Fim Widget Facebook-->
-  </div> <!--Fim Container-->
 
+    <section id="section-1" class="row reverse-colors">
+      <h1>O LEGÍTIMO CAFÉ EXPRESSO</h1>
+      <h2>A Café na Banca trabalha para fornecer ao seu negócio tudo o que for necessário para trazer o sabor do café a seus clientes</h2>
+    </section>
+
+    <section id="section-2" class="row">
+      <div class="col-12 col-md-7 col-lg-6">
+        <h3>Nossas máquinas</h3>
+        <p>Fornecemos ao seu negócio máquinas de café expresso italianas da mais alta qualidade.</p>
+        <a class="row btn btn-warning btn-home" role="button" href="maquinas.html">Saiba mais</a>
+      </div>
+      <figure class="col-12 col-md-4 col-lg-3 d-flex justify-content-center ima">
+        <img src="img/saeco_royal.png" class="img-fluid" alt="Foto de uma máquina de café Saeco Royal">
+      </figure>
+    </section>
+
+    <section id="section-3" class="row reverse-colors">
+      <div class="col-12 col-md-7 col-lg-6">
+        <h3>Nosso café</h3>
+        <p> Fornecemos a nossos clientes doses do Café Gourmet Vargas, composto de grãos predominantemente arábica, maduros, secos com todo cuidado, mantendo o melhor de cada grão. Os grãos são separados por tamanho e densidade, buscando os maiores e mais perfeitos. Por maior segurança, a Fazenda Ribeira em Varre Sai – RJ, origem dos grãos, produz e torra o café de forma sustentável, respeitando normas socioambientais, sendo referência e reconhecida por esse padrão de qualidade e sustentabilidade.</p>
+        <a class="row btn btn-warning btn-home" role="button" href="cafe.html">Saiba mais</a>
+      </div>
+      <figure class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+        <img class="section-image-3" src="img/café_vargas.png" alt="Foto de um pacote de café Vargas Gourmet">
+      </figure>
+    </section>
+
+    <section id="section-4" class="row">
+      <div class="col-12 col-md-7 col-lg-6">
+        <h3>Oferecemos manutenção gratuita a nossos clientes</h3>
+        <p> Em nosso compromisso com a excelência, garantimos que todas as nossas máquinas sejam cuidadosamente reparadas e reguladas por técnicos altamente especializados. Por isso oferecemos assistência técnica totalmente gratuita para nossos clientes. Nossa equipe está à disposição para garantir que sua máquina seja atendida com rapidez e eficiência, sem custos adicionais.</p>
+        <a class="row btn btn-warning btn-home" role="button" href="manutencao.html">Saiba mais</a>
+      </div>
+      <figure class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+        <img class="section-image-1" src="img/section_4_image.png" alt="Foto de um homem consertando uma máquina de café">
+      </figure>
+    </section>
+
+    <section id="section-5" class="row reverse-colors">
+        <h3>Entre em contato conosco!</h3>
+        <p>Quer contratar nossos serviços? Entre em contato ainda hoje por e-mail, telefone ou whatsapp!</p>
+        <div class="row">
+          <div class="card border-secondary col-7 col-lg-4">
+            <a href="mailto:contatocafenabanca@gmail.com" target="_blank">
+              <div class="card-body">
+                <h4 class="card-title">E-mail</h4>
+                <p>contatocafenabanca@gmail.com</p>
+              </div>
+            </a>
+          </div>
+          <div class="card border-secondary col-7 col-lg-4">
+            <a href="https://wa.me/5521993046255?text=&#8202" target="_blank">
+              <div class="card-body">
+                <h4 class="card-title">Telefone (wpp)</h4>
+                <p>(21) 99304-6255</p>
+              </div>
+            </a>
+          </div>
+        </div>
+    </section>
+  </main>
+
+  <footer class="row">
+    <address class="col-12 col-sm-6 col-md-4">
+      <p class="footer-title">CONTATO</p>    
+      <a href="https://wa.me/5521993046255?text=&#8202" target="_blank"><p class="footer-subtitle">Telefone (wpp)</p>
+      <p class="footer-text">(21) 99304-6255</p></a>
+      <a href="mailto:contatocafenabanca@gmail.com" target="_blank"><p class="footer-subtitle">E-mail</p> 
+      <p class="footer-text">contatocafenabanca@gmail.com</p></a>
+    </address>
+    <nav class="col-12 col-sm-4 col-md-4">
+      <p class="footer-title">MENU</p>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quem_somos.html">Quem Somos</a></li>
+        <li><a href="maquinas.html">Nossas Máquinas</a></li>
+        <li><a href="cafe.html">Café e Insumos</a></li>
+        <li><a href="manutencao.html">Manutenção Gratuita</a></li>
+        <li><a href="fale_conosco.html">Fale Conosco</a></li>
+      </ul>
+    </nav>
+    <div class="col-12 col-sm-5 col-md-4">
+      <p class="footer-title">REDES SOCIAIS</p>
+      <figure>
+        <a href="https://www.facebook.com/cafenabanca/" target="_blank"><img src="img/FBLogo.png" alt="Ícone do Facebook" class="fb-logo"></a>
+        <a href="https://api.whatsapp.com/send?phone=5521993046255&text=" target="_blank"><img src="img/wpp_logo.svg" alt="Ícone do Whatsapp" class="wpp-logo"></a>
+      </figure>
+    </div>
+  </footer>
+
+  <!--Início Widget Whatsapp-->
+  <div class="widget-whatsapp">
+    <a href="https://api.whatsapp.com/send?phone=5521993046255&text=" id="bt-whatsApp" target="_blank">
+      <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMjYxOSA1MDYgMTIwIDEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogIzI3ZDA0NTsKICAgICAgfQoKICAgICAgLmNscy0yLCAuY2xzLTUgewogICAgICAgIGZpbGw6IG5vbmU7CiAgICAgIH0KCiAgICAgIC5jbHMtMiB7CiAgICAgICAgc3Ryb2tlOiAjZmZmOwogICAgICAgIHN0cm9rZS13aWR0aDogNXB4OwogICAgICB9CgogICAgICAuY2xzLTMgewogICAgICAgIGZpbGw6ICNmZmY7CiAgICAgIH0KCiAgICAgIC5jbHMtNCB7CiAgICAgICAgc3Ryb2tlOiBub25lOwogICAgICB9CiAgICA8L3N0eWxlPjwvZGVmcz48ZyBkYXRhLW5hbWU9Ikdyb3VwIDM2IiBpZD0iR3JvdXBfMzYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIzMDAgNzMpIj48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjYwIiBjeT0iNjAiIGRhdGEtbmFtZT0iRWxsaXBzZSAxOCIgaWQ9IkVsbGlwc2VfMTgiIHI9IjYwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMTkgNDMzKSIvPjxnIGRhdGEtbmFtZT0iR3JvdXAgMzUiIGlkPSJHcm91cF8zNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjU0IDM4NikiPjxnIGRhdGEtbmFtZT0iR3JvdXAgMzQiIGlkPSJHcm91cF8zNCI+PGcgY2xhc3M9ImNscy0yIiBkYXRhLW5hbWU9IkVsbGlwc2UgMTkiIGlkPSJFbGxpcHNlXzE5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5NCA3NSkiPjxjaXJjbGUgY2xhc3M9ImNscy00IiBjeD0iMzEuNSIgY3k9IjMxLjUiIHI9IjMxLjUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNSIgY3g9IjMxLjUiIGN5PSIzMS41IiByPSIyOSIvPjwvZz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0xNDI0LDE5MWwtNC42LDE2LjMsMTYuOS00LjcuOS01LjItMTEsMy41LDIuOS0xMC41WiIgZGF0YS1uYW1lPSJQYXRoIDEyNiIgaWQ9IlBhdGhfMTI2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTMyNSAtNjgpIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTI2Niw5MGMwLS4xLDMuNS0xMS43LDMuNS0xMS43bDguNCw3LjlaIiBkYXRhLW5hbWU9IlBhdGggMTI3IiBpZD0iUGF0aF8xMjciIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMTY1IDQzKSIvPjwvZz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0xNDM5LjMsMTYwLjZhOS40LDkuNCwwLDAsMC0zLjksNi4xYy0uNSwzLjksMS45LDcuOSwxLjksNy45YTUwLjg3Niw1MC44NzYsMCwwLDAsOC42LDkuOCwzMC4xODEsMzAuMTgxLDAsMCwwLDkuNiw1LjEsMTEuMzc4LDExLjM3OCwwLDAsMCw2LjQuNiw5LjE2Nyw5LjE2NywwLDAsMCw0LjgtMy4yLDkuODUxLDkuODUxLDAsMCwwLC42LTIuMiw1Ljg2OCw1Ljg2OCwwLDAsMCwwLTJjLS4xLS43LTcuMy00LTgtMy44cy0xLjMsMS41LTIuMSwyLjYtMS4xLDEuNi0xLjksMS42LTQuMy0xLjQtNy42LTQuNGExNS44NzUsMTUuODc1LDAsMCwxLTQuMy02cy42LS43LDEuNC0xLjhhNS42NjQsNS42NjQsMCwwLDAsMS4zLTIuNGMwLS41LTIuOC03LjYtMy41LTcuOUExMS44NTIsMTEuODUyLDAsMCwwLDE0MzkuMywxNjAuNloiIGRhdGEtbmFtZT0iUGF0aCAxMjgiIGlkPSJQYXRoXzEyOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEzMjYuMzMyIC02OC40NjcpIi8+PC9nPjwvZz48L3N2Zz4=" alt="Link Whatsapp">
+      <div id="whatsapp-message">
+        Fale conosco via WhatsApp
+      </div>
+    </a>
+  </div>
+  <!--Fim Widget Whatsapp-->
   <!--Início Script Bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
   <!--Fim Script Bootstrap--> 

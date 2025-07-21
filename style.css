@@ -44,7 +44,9 @@ header{
 }
 
 nav figure{
-    margin: 0
+    margin: 0;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 nav img{
@@ -61,7 +63,7 @@ nav ul{
 
 .navbar-toggler{
     background-color: rgb(204, 202, 188);
-    margin-right: 40px;
+    margin-right: 40px; 
 }
 
 section{
@@ -84,6 +86,12 @@ footer{
     min-height: 30vh;
     padding: 0% 15% 30px 15%;
     align-items: flex-start;
+}
+
+footer address,
+footer nav,
+footer div{
+    display:grid;
     justify-content: center;
 }
 
@@ -127,15 +135,17 @@ footer a{
     font-size: 1rem;
 }
 
-#facebook{
-    min-width: 200px;
+.fb-logo{
+    min-width: 20px;
+    max-width: 40px;
+    height: auto;
+    margin-right: 10px;
 }
 
-.fb-page{
-    width: 100%;
-    min-width: 200px;
-    padding-bottom: 30px;
-    overflow-x: hidden;
+.wpp-logo{
+    min-width: 23px;
+    max-width: 43px;
+    height: auto;
 }
 
 #bt-whatsApp{
@@ -291,7 +301,8 @@ section a{
 
 #quem-somos h1{
     text-align: center;
-    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #quem-somos h4{
@@ -358,14 +369,16 @@ section a{
 
 #maquinas #section-1 img{
     height: 20vh;
-    border: 2px solid black;
+    border: 8px double rgb(0, 121, 0);
     padding: 2%;
-    border-radius: 10%;
+    border-radius: 100%;
+    background-color: gray;
 }
 
 #maquinas #section-1 figure :hover{
     border-color: goldenrod;
 }
+
 
 /*Café e Insumos*/
 #cafe main .row{
@@ -443,6 +456,7 @@ section a{
     border: 2px solid black;
 }
 
+
 /*Fale Conosco*/
 #fale-conosco main{
     color: black;
@@ -458,6 +472,14 @@ section a{
 
 .contact-row p{
     text-align: center;
+}
+
+#fale-conosco .card{
+    background-color: rgba(88, 35, 0, 0.8);
+    color: white;
+    margin-bottom: 3%;
+    min-width: 250px;
+    max-width: 300px;
 }
 
 #fale-conosco .card :hover{
@@ -508,12 +530,4 @@ label{
 #fale-conosco .btn{
     margin-left: 1%;
     margin-top: 2%;
-}
-
-#fale-conosco .card{
-    background-color: rgba(88, 35, 0, 0.8);
-    color: white;
-    margin-bottom: 3%;
-    min-width: 250px;
-    max-width: 300px;
 }
