@@ -62,6 +62,28 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+    
+    <div id="temp-message" style="opacity:0; transition: opacity 1s;">
+      <p>Fornecemos nossos serviços apenas na cidade do Rio de Janeiro</p>
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        var msg = document.getElementById("temp-message");
+        msg.style.opacity = "1";
+        });
+        var closeBtn = document.createElement("button");
+        closeBtn.textContent = "Fechar";
+        closeBtn.className = "btn btn-secondary btn-sm";
+        closeBtn.style.position = "absolute";
+        closeBtn.onclick = function() {
+          var msg = document.getElementById("temp-message");
+          msg.style.opacity = "0";
+          setTimeout(function() {
+            msg.style.display = "none";
+          }, 1000);
+        };
+        document.getElementById("temp-message").appendChild(closeBtn);
+      </script>
+      </div> 
 
     <section id="section-1" class="row reverse-colors">
       <h1>O LEGÍTIMO CAFÉ EXPRESSO</h1>
@@ -102,10 +124,9 @@
     </section>
 
     <section id="section-5" class="row reverse-colors">
-        <h3>Entre em contato conosco!</h3>
-        <p>Quer contratar nossos serviços? Entre em contato ainda hoje por e-mail, telefone ou whatsapp!</p>
+        <h3>Entre em contato conosco</h3>
         <div class="row">
-          <div class="card border-secondary col-7 col-lg-4">
+          <div class="card border-secondary col-8 col-lg-5">
             <a href="mailto:contatocafenabanca@gmail.com" target="_blank">
               <div class="card-body">
                 <h4 class="card-title">E-mail</h4>
@@ -113,10 +134,10 @@
               </div>
             </a>
           </div>
-          <div class="card border-secondary col-7 col-lg-4">
+          <div class="card border-secondary col-8 col-lg-5">
             <a href="https://wa.me/5521993046255?text=&#8202" target="_blank">
               <div class="card-body">
-                <h4 class="card-title">Telefone (wpp)</h4>
+                <h4 class="card-title">Whatsapp</h4>
                 <p>(21) 99304-6255</p>
               </div>
             </a>
@@ -126,9 +147,9 @@
   </main>
 
   <footer class="row">
-    <address class="col-12 col-sm-6 col-md-4">
+    <address class="col-12 col-sm-7 col-md-4">
       <p class="footer-title">CONTATO</p>    
-      <a href="https://wa.me/5521993046255?text=&#8202" target="_blank"><p class="footer-subtitle">Telefone (wpp)</p>
+      <a href="https://wa.me/5521993046255?text=&#8202" target="_blank"><p class="footer-subtitle">Whatsapp</p>
       <p class="footer-text">(21) 99304-6255</p></a>
       <a href="mailto:contatocafenabanca@gmail.com" target="_blank"><p class="footer-subtitle">E-mail</p> 
       <p class="footer-text">contatocafenabanca@gmail.com</p></a>
@@ -166,6 +187,6 @@
   <!--Início Script Bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
   <!--Fim Script Bootstrap--> 
-  <script>alert("Fornecemos nossos serviços apenas na cidade do Rio de Janeiro");</script>
+  <!--<script>alert("Fornecemos nossos serviços apenas na cidade do Rio de Janeiro");</script>-->
 </body>
 </html>
