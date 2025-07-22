@@ -238,7 +238,7 @@ section a{
 }
 
 #homepage .btn{
-     width: 110px;
+     width: 150px;
      margin-left: 0;
      margin-bottom: 40px;
 }
@@ -272,8 +272,8 @@ section a{
     background-color: rgba(219, 99, 1, 0.4);
     color: white;
     margin-bottom: 3%;
-    min-width: 300px;
-    max-width: 350px;
+    min-width: 370px;
+    max-width: 420px;
     padding: 0;
 }
 
@@ -346,15 +346,22 @@ section a{
 .quem-somos-fig-1{
     display: flex;
     justify-content: center;
-    width: 12%;
-    min-width: 170px;
-    max-width: 190px;
+    min-width: 230px;
+    max-width: 250px;
     height: auto;
 }
 
 .quem-somos-img-1{
     width: 100%;
     height: auto;
+}
+
+#quem-somos main .row{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
 }
 
 
